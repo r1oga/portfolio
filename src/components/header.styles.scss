@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  background-color: #FBFBFB;
+  background-color: black;
 }
 hr{
-  color:black;
+  color: #DBDBDB;
   margin-top: 2rem;
 }
 h1 {
@@ -11,26 +11,26 @@ h1 {
   margin: 0 0 1rem 0;
   font-family: 'Open Sans', sans-serif;
 }
-  
+
 .attr {
     font-family: 'Anonymous Pro', monospace;
-    background-color: #C3F8FF;
+    background-color: #F23F52;
     font-size:1.2rem;
     margin: 0 .5rem 0 .5rem;
- 
+
   }
 
   .attr:hover {
     background-color: transparent;
  }
 
-  
+
 .icons {
     padding: 1rem;
     a {
-      color: black;
+      color: #DBDBDB;
       &:visited {
-        color: black;
+        color: #DBDBDB;
       }
     }
     .fab {
@@ -43,7 +43,7 @@ h1 {
       }
 
     }
-   
+
   }
 
   i {
@@ -51,11 +51,11 @@ h1 {
     padding:1rem;
   }
 
-  
+
 .header-main {
   padding: 2rem 20rem 2rem 20rem;
   text-align: center;
-  
+
 }
 
 
@@ -66,20 +66,20 @@ h1 {
 .pages-link {
   padding: 0 2rem 0 2rem;
   margin-bottom: 1rem;
-  
+
   a {
     padding: 0 1rem 1rem 1rem;
-    
+
   }
 }
 
 @media(max-width:1400px) {
-  
+
   .header-main {
     padding: 0;
   }
-  
-  
+
+
   .content-main {
     padding: 2rem 4rem 5rem;
   }
@@ -87,12 +87,12 @@ h1 {
 
 
 @media(max-width:650px) {
-  
+
   .header-main {
     padding: 0;
   }
-  
-  
+
+
   .content-main {
     padding-bottom: 5rem;
   }
@@ -100,8 +100,8 @@ h1 {
 
 .nodecor {
   text-decoration: none;
-  color: black;
+  color: #DBDBDB;
   &:hover {
-    color: cornflowerblue;
+    color: #F23F52;
   }
 }

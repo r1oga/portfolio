@@ -1,8 +1,8 @@
-import React from 'react';
-import Layout from '../components/Layout';
-import aboutStyle from './About.module.scss';
-import Img from 'gatsby-image';
-import {graphql} from 'gatsby'
+import React from 'react'
+import Layout from '../components/Layout'
+import aboutStyle from './About.module.scss'
+import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
 
 export const query = graphql`
 query {
@@ -20,63 +20,45 @@ query {
 `
 
 const About = (props) => {
-    console.log(query)
-    return (
-        <Layout>
-            <h2>Hello , my name is Developer</h2>
+  console.log(query)
+  return (
+    <Layout>
+      <h2>Gauthier Riou</h2>
 
-            <div className={aboutStyle.main}>
-            
+      <div className={aboutStyle.main}>
 
-            <div className={aboutStyle.izquierda}>
-                <div className={aboutStyle.imagen}> <Img className={aboutStyle.img} fluid={props.data.file.childImageSharp.fluid} /></div>
-                <div className={aboutStyle.texto}>
+        <div className={aboutStyle.izquierda}>
+          <div className={aboutStyle.imagen}> <Img className={aboutStyle.img} fluid={props.data.file.childImageSharp.fluid} /></div>
+          <div className={aboutStyle.texto}>
 
-                <div className={aboutStyle.iconos}><i className="fas fa-map-marker-alt fa-sm"></i><p>Location, Country</p></div>
-            <div className={aboutStyle.iconos}><i className="fas fa-graduation-cap fa-sm"></i><p>University of life</p></div>
-            <div className={aboutStyle.iconos}><i className="fas fa-code fa-sm"></i><p>HTML, JS, CSS, noSQL</p></div>
-            <div className={aboutStyle.iconos}><i className="fas fa-language fa-sm"></i><p>English, Spanish, Portuguese and Latin</p></div>
-            
+            <div className={aboutStyle.iconos}><i className='fas fa-map-marker-alt fa-sm' /><p>Hamburg, Germany</p></div>
+            <div className={aboutStyle.iconos}><i className='fas fa-graduation-cap fa-sm' /><p>Ecole Centrale de Nantes</p></div>
+            <div className={aboutStyle.iconos}><i className='fas fa-code fa-sm' /><p>Pyhton, JS, HTML, JS, CSS, SQL, Solidity</p></div>
+            <div className={aboutStyle.iconos}><i className='fas fa-language fa-sm' /><p>French, English, German</p></div>
 
+          </div>
 
-                </div>
-          
-            </div>
-            <div className={aboutStyle.derecha}>
-            <p>
-            Healthy float waves wrap gnarley Trestles oil water indy? Clamped blonde rigs capped out socked in, blown out fresh stick healthy float stall, waves Taj Burrow. Fan a spray foam ball clamped rip the pit shacked priority frothy top dry hair paddle out insider. Oil barreling, carve crumbly lip in the bricks white water sand bar fighting for the peak. Twin fin freshie reef urll make the paddle layback hammer blonde rigs slob priority. Drifting the tail rinsed salt water pit above the lip. Stab mag, double up nice little fish kook legend J.O.B. rock-n-roll socked in.
-            </p><p>
-Stomps it stale send it loc vertical backside hack out the back rookie drifting the tail crumbly lip. Oil barny nutty Jordy Smith clamped ripping the pit, best section combos wind swell best section. Chunky keyhole shutting down ripping bumps crumble sand bottom. Jamie O'Brien psyched pit critical Margaret River good-epic Pipe, good-epic flow. Firing shorebreak stuffs the rail claw hands rail dig speed tube barn dog a-frame claim. Firing wave so pitted wave green room green room foam climb tides insider. Rights cranking nice little amped barn dog bumps hack a thon don.
-</p><p>
-Fog Eddie would go layback daggers barreling backside board lefts. Pitted silky smooth John John Florence reef brah, pump. Rippin blow tail fins free reef ripping knee high full mad air reverse? Paddle out Simpo psyching tri fin, down the line, no kooks speed hack waves. Pump send it sand bottom section Jordy Smith insider no kooks, over the reef epic snake.
-</p>
-               
-                <div className={aboutStyle.logoContainer}>
-                <p>Some of the tech I like:</p>
-                <img alt="javascript" className={aboutStyle.logo} src="./logos/javascript.svg" />
-                <img alt="Gatsby" className={aboutStyle.logo} src="./logos/gatsby.svg" />
-                <img alt="GraphQl" className={aboutStyle.logo} src="./logos/graphql.svg" />
-                <img alt="React" className={aboutStyle.logo} src="./logos/react.svg" />
-                <img alt="nodeJs" className={aboutStyle.logo} src="./logos/nodejs-icon.svg" />
-                <img alt="Mongo" className={aboutStyle.logo} src="./logos/mongodb.png" />
-                <img alt="Sass" className={aboutStyle.logo} src="./logos/sass-1.svg" />
-                </div>
+        </div>
+        <div className={aboutStyle.derecha}>
+          <p>French</p>
+          <p>30 years old.</p>
+          <p>Been living in Germany - Hamburg since 2013</p>
+          <p>Indsutrial engineer truned data analyst turning blockchain developer</p>
+          <p>Some of the tech I like working with:</p>
+          <div className={aboutStyle.logoContainer}>
+            <i class='fab fa-js' />
+            <i class='fab fa-python' />
+            <i class='fab fa-html5' />
+            <i class='fab fa-css3' />
+            <i class='fab fa-react' />
+            <i class='fab fa-ethereum' />
+            <i class='fab fa-bitcoin' />
+          </div>
+        </div>
 
-           
-                <div className={aboutStyle.socialContainer}>
-                <p>Send me a message!</p>
-                <a className={aboutStyle.social} href="https://github.com/martin2844"><i className="fab fa-github"></i></a>
-            <a className={aboutStyle.social} href="https://www.instagram.com/codigo.mate/"><i className="fab fa-instagram"></i></a>
-            <a className={aboutStyle.social} href="https://www.youtube.com/channel/UC9nNIxlNohIoIrjtC4ueIOA"><i className="fab fa-youtube"></i></a>
-                <a className={aboutStyle.social} href="https://www.twitter.com/codigomate"><i class="fab fa-twitter"></i></a>
-                </div>
-
-
-            </div>
-
-            </div>
-        </Layout>
-    )
+      </div>
+    </Layout>
+  )
 }
 
 export default About

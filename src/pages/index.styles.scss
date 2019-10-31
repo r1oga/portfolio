@@ -1,5 +1,6 @@
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Monospace';
+    color: #DBDBDB;
 }
 .opener{
     font-size: 2.5rem;
@@ -16,14 +17,14 @@
   padding-right: 0.4rem;
   font-size: 1.1rem;
   padding-bottom: 1rem;
-  
+
 }
 
 .folio-sinopsis {
   display: inline;
-  color: #9B9696;
+  color: #DBDBDB;
   font-size: 1.1rem;
-  
+
 }
 
 .container {
@@ -41,12 +42,12 @@ input {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
-  
+
 }
 
 .tab {
   width: 100%;
-  color: black;
+  color: #F23F52;
   overflow: hidden;
   font-size: .9rem;
   img{
@@ -54,9 +55,9 @@ input {
 }
   &-label {
     display: flex;
-    
+
     &:hover {
-        color: cornflowerblue;
+        color: #DBDBDB;
     }
     cursor: pointer;
     /* Icon */
@@ -77,7 +78,7 @@ input {
     justify-content: flex-end;
     font-size: 0.75em;
     cursor: pointer;
-  
+
   }
 }
 
@@ -102,12 +103,12 @@ input:checked {
 }
 
 .repolinks {
-    a { 
+    a {
     display: block;
     margin-top: 10px;
     text-decoration: none;
     &:hover {
-        color: cornflowerblue;
+        color: #F23F52;
     }
     &:visited {
         text-decoration: none;
@@ -119,15 +120,15 @@ input:checked {
 @media(max-width:800px) {
 
     .folio-title {
-        
+
         font-size: 0.9rem;
       }
 
       .folio-sinopsis {
         font-size: 0.9rem;
       }
-      
-    
+
+
 }
 
 
@@ -135,7 +136,7 @@ input:checked {
 @media(max-width:500px) {
 
     .folio-title {
-        
+
         font-size: 0.75rem;
         padding-right: 1rem;
       }
@@ -143,6 +144,6 @@ input:checked {
       .folio-sinopsis {
         font-size: 0.75rem;
       }
-      
-    
+
+
 }
