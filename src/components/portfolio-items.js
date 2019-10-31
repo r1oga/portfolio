@@ -1,49 +1,55 @@
 const portfolioItems = [
-    {
-        title: 'Portfolio Item 1',
-        sinopsis: 'This is a pure CSS accordion. Click to open',
-        desc: 'You can put your description here. Include your github Repo. A link for a live version is optional. Include a screen cap. Or edit the format',
-        img: './portfolio/faduense.png',
-        repo: 'https://github.com/martin2844/faduense',
-        idx: 1
-    },
-    {
-        title: 'Portfolio Item 2',
-        sinopsis: 'This is just a quick description. Open up for more details',
-        desc: 'This is just a javascript array of objects. Gatsby makes the JSX elements to show up',
-        img: './portfolio/bitcoin.png',
-        live: 'bitcoinhoy.com.ar',
-        repo: 'https://github.com/martin2844',
-        idx: 2
-    },
-    {
-        title: 'Portfolio Item 3',
-        sinopsis: 'It also includes a Blog section, with the createPages Api',
-        desc: 'Write posts directly in markdown. Thanks to plugins, and the createPage Api, gatbsy generates blog posts automatically',
-        img: './portfolio/ejs-blog.png',
-        repo: 'https://github.com/martin2844/ejs-blog',
-        live: 'https://my-ejs-blog.herokuapp.com/',
-        idx: 3
-    },
-    {
-        title: 'Portfolio Item 4',
-        sinopsis: 'Its very minimalist, but that was the end goal',
-        desc: 'This was inspired in Dinesh Pandiyan personal page',
-        img: './portfolio/EJS.png',
-        repo: 'https://github.com/martin2844',
-        live: 'https://my-ejs-todo-list.herokuapp.com',
-        idx: 4
-    },
-    {
-        title: 'Portfolio Item 5',
-        sinopsis: 'Please message me at twitter @codigoMate',
-        desc: 'I really appriciate any messages',
-        img: './portfolio/Mate.png',
-        repo: 'https://github.com/martin2844',
-        live: 'https://codigomate.com',
-        idx: 5
-    }
-
+  {
+    title: 'Kickstartereum',
+    sinopsis: 'Kickstarter on Ethereum',
+    desc: 'Smart contract application managing creation of new campaigns, contribution to campaigns, submission and approvals of payment requests. React front-end.',
+    img: './portfolio/kickstartereum.png',
+    repo: 'https://github.com/6ry0u/kickstartereum',
+    live: 'https://www.youtube.com/watch?v=yJyEVvW6MI4',
+    idx: 1
+  },
+  {
+    title: 'Flight Surety',
+    sinopsis: 'Manage flights insurance with an Ethereum smart contract',
+    desc: 'A consortium of airlines follows a multi party consensus to register new airlines. Flight Status are provided by oracles. On flight delay the smart contract reimburses passengers.',
+    img: 'https://raw.githubusercontent.com/6ry0u/flight-surety/master/screenshots/front-end.png',
+    repo: 'https://github.com/6ry0u/flight-surety',
+    idx: 2
+  },
+  {
+    title: 'Decentralized House Listing Service',
+    sinopsis: 'Ethereum Dapp: ERC721 token + ZkSNARK + Open Sea',
+    desc: "Blockchain technology is a very good solution to mitigate the risks for errors or fraud, and the legal fees to ensure authenticity and accuracy of property titles. Makes use of: Tokens (ERC721 standard) to represent property titles, Zero Knowledge Proof of property's ownership using the ZoKrates toolbox for ZkSNARKS on Ethereum, Listing of properties on the OpenSea marketplace.",
+    img: 'https://files.readme.io/f41ce42-opensea-logo-full-colored-blue.png',
+    repo: 'https://github.com/6ry0u/decentralized_house_listing',
+    idx: 3
+  },
+  {
+    title: 'AirChain',
+    sinopsis: 'Ethereum DApp to manage an aircraft manufacturing supply chain',
+    desc: 'An Ethereum smart contract manages a Supply Chain flow between a Customer, a Manufacturer, a Supplier and a Transporter during the manufacturing of an aircraft.',
+    img: 'https://raw.githubusercontent.com/6ry0u/AirChain/master/UML/AC_SupplyChain_StateDiagram.png',
+    repo: 'https://github.com/6ry0u/AirChain',
+    live: 'https://www.youtube.com/watch?v=N-suXPYTDV4',
+    idx: 4
+  },
+  {
+    title: 'Vinyls Catalogue Web App',
+    sinopsis: '"Catalogue" web application',
+    desc: 'Development of Web app to manage a vynils collection: SQL backend database + front end with Python Flask + authentication using Google sign in. Set up a secure linux web server using a Digital Ocean droplet.',
+    img: './portfolio/vinyls_catalog.png',
+    repo: 'https://github.com/6ry0u/linux_server_config',
+    live: 'http://104.248.253.240.xip.io/',
+    idx: 5
+  },
+  {
+    title: 'Enron Fraud',
+    sinopsis: 'Machine Learning Project',
+    desc: 'Indentify Fraud from the Enron mail data set using machine learning (Python scikit-learn).',
+    img: 'https://upload.wikimedia.org/wikipedia/de/thumb/9/9a/Enron_Logo.svg/220px-Enron_Logo.svg.png',
+    repo: 'https://github.com/6ry0u/Enron_Fraud_Project',
+    idx: 6
+  }
 ]
 
 export default portfolioItems

@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 /**
  * Configure your Gatsby site with this file.
@@ -8,9 +8,9 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Developer Name',
-    author: 'Martin Chammah',
-    siteUrl: `https://www.martinchammah.dev`
+    title: '6|2`/0(_)',
+    author: '6ry0u',
+    siteUrl: 'https://www.martinchammah.dev'
   },
   /* Your site config here */
   plugins: [
@@ -23,9 +23,7 @@ module.exports = {
       }
     },
     'gatsby-transformer-remark',
-    `gatsby-transformer-sharp`, 
-    `gatsby-plugin-sharp`
-]
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp'
+  ]
 }
-
-
