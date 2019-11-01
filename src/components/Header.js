@@ -40,8 +40,8 @@ const Header = () => {
           <Link to='/about'>About</Link>
         </span>
 
-        <hr />
       </div>
+      <hr />
     </div>
 
   )

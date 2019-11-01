@@ -15,6 +15,8 @@ h1 {
 .subtitle {
     margin-top: -10px;
     padding-bottom: 1.3rem;
+    font-size: 25px;
+    text-align: justify;
 }
 
 .folio-title {
@@ -139,6 +141,13 @@ input:checked {
 
 @media(max-width:500px) {
 
+  .opener {
+    font-size: 28px;
+  }
+  .subtitle {
+    font-size: 14px;
+  }
+
   input:checked {
     ~ .tab-content {
       img {
@@ -148,7 +157,6 @@ input:checked {
   }
 
   .folio-title {
-
       font-size: 0.75rem;
       padding-right: 1rem;
     }

@@ -10,7 +10,7 @@ query {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
-        
+
         fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
         }
@@ -40,11 +40,11 @@ const About = (props) => {
 
         </div>
         <div className={aboutStyle.derecha}>
-          <p>French</p>
+          <p>French born.</p>
           <p>30 years old.</p>
-          <p>Been living in Germany - Hamburg since 2013</p>
-          <p>Indsutrial engineer truned data analyst turning blockchain developer</p>
-          <p>Some of the tech I like working with:</p>
+          <p>In Germany, Hamburg since 2013.</p>
+          <p>Indsutrial engineer truned data analyst turning blockchain developer.</p>
+          <p>Some of the tech I like developing with:</p>
           <div className={aboutStyle.logoContainer}>
             <i class='fab fa-js' />
             <i class='fab fa-python' />
@@ -52,7 +52,6 @@ const About = (props) => {
             <i class='fab fa-css3' />
             <i class='fab fa-react' />
             <i class='fab fa-ethereum' />
-            <i class='fab fa-bitcoin' />
           </div>
         </div>
 
