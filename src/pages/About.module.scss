@@ -1,3 +1,7 @@
+body {
+  color: #DBDBDB;
+}
+
 @media(min-width: 700px) {
     .main {
 
@@ -16,7 +20,7 @@ h2 {
     text-align: center;
   i {
     font-size: 4em;
-    color: tomato;
+    color: #F23F52;
   }
 
   .logo {
@@ -86,7 +90,7 @@ h2 {
 
 .social:hover {
 
-    color:cornflowerblue;
+    color:#F23F52;
 }
 
 

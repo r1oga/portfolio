@@ -1,6 +1,12 @@
-*{
+* {
     font-family: 'Monospace';
-    color: #DBDBDB;
+}
+h1 {
+  color: #DBDBDB;
+}
+
+.header-main {
+  color: #DBDBDB;
 }
 .opener{
     font-size: 2.5rem;
@@ -13,22 +19,17 @@
 
 .folio-title {
   font-weight: bold;
-  display: inline;
   padding-right: 0.4rem;
   font-size: 1.1rem;
   padding-bottom: 1rem;
-
 }
 
 .folio-sinopsis {
-  display: inline;
-  color: #DBDBDB;
   font-size: 1.1rem;
-
+  text-align: right;
 }
 
 .container {
-
   padding: 20rem 20rem;
 }
 
@@ -47,17 +48,18 @@ input {
 
 .tab {
   width: 100%;
-  color: #F23F52;
   overflow: hidden;
   font-size: .9rem;
-  img{
-    max-width:300px;
+  color: #DBDBDB;
+  img {
+    max-width: 300px;
 }
   &-label {
     display: flex;
-
+    flex-grow: row;
+    justify-content: space-between;
     &:hover {
-        color: #DBDBDB;
+        color: #F23F52;
     }
     cursor: pointer;
     /* Icon */
@@ -70,6 +72,8 @@ input {
   }
   &-content {
     max-height: 0;
+    display: flex;
+    flex-flow: column;
     background-color: transparent;
     transition: all .35s;
   }
@@ -94,7 +98,7 @@ input:checked {
     padding: 1em;
     width:90%;
     font-size: .9rem;
-    img{
+    img {
         max-width:300px;
         float: left;
         padding:0 25px 25px 0;
@@ -104,16 +108,16 @@ input:checked {
 
 .repolinks {
     a {
+    color: #DBDBDB;
     display: block;
     margin-top: 10px;
-    text-decoration: none;
     &:hover {
         color: #F23F52;
     }
     &:visited {
         text-decoration: none;
     }
-}
+  }
 }
 
 
@@ -135,15 +139,21 @@ input:checked {
 
 @media(max-width:500px) {
 
-    .folio-title {
-
-        font-size: 0.75rem;
-        padding-right: 1rem;
+  input:checked {
+    ~ .tab-content {
+      img {
+        max-width: 210px;
       }
+    }
+  }
 
-      .folio-sinopsis {
-        font-size: 0.75rem;
-      }
+  .folio-title {
 
+      font-size: 0.75rem;
+      padding-right: 1rem;
+    }
 
+  .folio-sinopsis {
+    font-size: 0.75rem;
+  }
 }

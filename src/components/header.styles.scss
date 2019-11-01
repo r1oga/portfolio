@@ -60,7 +60,7 @@ h1 {
 
 
 .content-main {
-  padding: 2rem 20rem 5rem 20rem;
+  padding: 2rem 10rem 5rem 10rem;
 }
 
 .pages-link {
@@ -68,8 +68,14 @@ h1 {
   margin-bottom: 1rem;
 
   a {
+    color: #DBDBDB;
     padding: 0 1rem 1rem 1rem;
-
+    &:hover {
+        color: #F23F52;
+    }
+    &:visited {
+        text-decoration: none;
+    }
   }
 }
 

@@ -32,7 +32,8 @@ const Header = () => {
           <a href='https://twitter.com/6ry0u'><i className='fab fa-twitter' /></a>
           <a href='https://www.linkedin.com/in/griou/'><i className='fab fa-linkedin' /></a>
         </div>
-        <span className='pages-link'><Link to='/'>Portfolio</Link>
+        <span className='pages-link'>
+          <Link to='/'>Portfolio</Link>
                         |
           <a href='https://listed.to/@6ry0u'>Blog</a>
                         |
