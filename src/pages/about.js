@@ -41,7 +41,7 @@ const About = (props) => {
         </div>
         <div className={aboutStyle.derecha}>
           <p>French born.</p>
-          <p>30 years old.</p>
+          <p>31 years old.</p>
           <p>In Germany, Hamburg since 2013.</p>
           <p>Indsutrial engineer truned data analyst turning blockchain developer.</p>
           <p>Some of the tech I like developing with:</p>
